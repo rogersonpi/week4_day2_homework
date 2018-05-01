@@ -12,26 +12,22 @@ class Game
   end
 
   def run_game
-    
-    if @guess1 ="rock" && @guess2 = "scissors"
+    if @guess1 =="rock" && @guess2 == "scissors"
       return "rock wins!"
-    else if @guess1 = "scissors" && @guest2 ="rock"
+    elsif @guess1 == "scissors" && @guest2 =="rock"
       return "rock wins!"
-    else if @guess1 ="paper" && @guess2 = "rock"
+    elsif @guess1 =="paper" && @guess2 == "rock"
       return "paper wins!"
-    else if @guess1 = "rock" && @guess2 = "paper"
+    elsif @guess1 == "rock" && @guess2 == "paper"
       return "Paper wins"
-    else if@guess1 ="paper" && @guess2 = "rock"
+    elsif@guess1 =="paper" && @guess2 == "rock"
       return "paper wins!"
-    else if @guess1 = "rock" && @guess2 = "paper"
+    elsif @guess1 == "rock" && @guess2 == "paper"
       return "Paper wins"
-    else if @guess1 ="scissors" && @guess2 = "paper"
+    elsif @guess1 =="scissors" && @guess2 == "paper"
       return "scissors wins!"
-    else if @guess1 ="paper" && @guess2 = "scissors"
+    elsif @guess1 =="paper" && @guess2 == "scissors"
       return "scissors wins!"
-
-
     end
-
   end
 end
